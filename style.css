@@ -9,7 +9,7 @@ body {
   font-family: "Open Sans", sans-serif;
   height: 100%;
   width: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
   background-color: #333;
   line-height: 1.7;
 }
@@ -30,6 +30,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1rem;
+  color: white;
 
   /* to prevent select the text and image on the page  */
   user-select: none;
@@ -52,6 +53,10 @@ body {
   /* to delete the underline of the text  */
   text-decoration: none;
   padding: 1rem 1.5rem;
+}
+.btn:hover {
+  font-size:18px
+  
 }
 
 .grabbing {
